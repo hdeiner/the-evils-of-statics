@@ -172,3 +172,8 @@ public class MicrocontrollerTest {
 
 }
 ```
+Take Aways
+----------
+Statics preserve global state, are globally scoped, and are dangerous.  There are cases where they should be used (resource pools, functional code, etc).  But generally, statics are extremely anti Object Oriented and a throwback to earlier times.
+
+Designing for testability allows us to more fully test code that it otherwise difficult or costly to test.  It's much better to have many small and quick tests that are comprehensive than one large "test in production".
