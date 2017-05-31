@@ -1,5 +1,9 @@
 The Evils of Statics
 ====================
+
+### Status
+[![Build Status](https://travis-ci.org/hdeiner/the-evils-of-statics.svg?branch=master)](https://travis-ci.org/hdeiner/the-evils-of-statics)
+
 Statics break object oriented thinking in many ways.
 
 Object-orientation is about three things:
